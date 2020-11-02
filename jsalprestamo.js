@@ -22,6 +22,11 @@ function BancosAlPrestamo(){
         if(arrayDeAlPrestamo[i].banco.toLowerCase().includes(promptBanco.toLowerCase())){
             alert("Muchas gracias por seleccionarnos. Somos"+ promptBanco);
             console.log("El usuario a seleccionado"+ promptBanco);
+            document.getElementById("Solicita-tu-prestamo").style.background = "#4C60EC";
+            document.getElementById("BotonDePrestamo").innerHTML = "¡Listo! en breve recibiras un mail";
+            document.getElementById("BotonDePrestamo").style.background = "MediumSeaGreen";
+            document.getElementById("funfacts").style.background = "MediumSeaGreen";
+            
         }
     }
     }
